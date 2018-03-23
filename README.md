@@ -1,11 +1,7 @@
 # 使用深度学习来破解 captcha 验证码
 
-本项目会通过 Keras 搭建一个深度卷积神经网络来识别 captcha 验证码，建议使用显卡来运行该项目。
-
-下面的可视化代码都是在 `jupyter notebook` 中完成的，如果你希望写成 python 脚本，稍加修改即可正常运行，当然也可以去掉这些可视化代码。Keras 版本：1.2.2。
-
+[原文出处](https://github.com/ypwhs/captcha_break)
 # captcha
-
 captcha 是用 python 写的生成验证码的库，它支持图片验证码和语音验证码，我们使用的是它生成图片验证码的功能。
 
 首先我们设置我们的验证码格式为数字加大写字母，生成一串验证码试试看：
@@ -378,3 +374,4 @@ plt.imshow(X[0], cmap='gray')
 * [http://keras-cn.readthedocs.io/en/latest/getting_started/functional_API/](http://keras-cn.readthedocs.io/en/latest/getting_started/functional_API/)
 * [https://github.com/fchollet/keras/blob/master/examples/image_ocr.py](https://github.com/fchollet/keras/blob/master/examples/image_ocr.py)
 * [http://cs231n.github.io/convolutional-networks/](http://cs231n.github.io/convolutional-networks/)
+
