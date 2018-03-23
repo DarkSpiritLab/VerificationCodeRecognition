@@ -1,4 +1,4 @@
-##captcha recognition interface
+## captcha recognition interface
 - breakcaptcha
 	 - request
 		 - mode['POST']
